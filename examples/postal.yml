@@ -23,10 +23,10 @@ logging:
 
 main_db:
   # Specify the connection details for your MySQL database
-  host: 127.0.0.1
-  username: root
-  password: postal
-  database: postal
+  host: {{main_db_host}}
+  username: {{main_db_uname}}
+  password: {{main_db_pw}}
+  database: {{main_db_db}}
 
 message_db:
   # Specify the connection details for your MySQL server that will be house the
